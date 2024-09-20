@@ -23,7 +23,7 @@ if uploaded_file is not None:
     st.image(image, caption='Uploaded Image', use_column_width=True)
 
     # Corruption Type Selection
-    st.subheader("Choose the corruption you want to apply:")
+    st.subheader("Corruption Type:")
 
     corruption_options = [
         "None",
